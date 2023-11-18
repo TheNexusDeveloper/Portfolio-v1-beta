@@ -52,9 +52,9 @@ body{
 /* Navigation Component */
 header{
     display: grid;
-    grid-template-columns: 25% 45% 20% 10%;
-    justify-content: stretch;
-    padding: 20px 50px;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    padding: 20px 100px;
     position: sticky;
     box-shadow: 0 2px 20px -2px rgba(0,0,0,.2);
     overflow: hidden;
@@ -64,6 +64,10 @@ header{
 .logo{
     padding: 14px 10px;
     text-align: center;
+}
+
+nav{
+    text-align: right;
 }
 
 .topnav{
@@ -112,8 +116,9 @@ header{
 }
 
 .showcase > .container{
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     height: 80vh;
     padding: 0;
     z-index: 1;
@@ -121,7 +126,13 @@ header{
 
  .showcase-text{
     position: relative;
+    padding: 0 100px;
     
+}
+
+.profile img{
+    border: 3px solid black;
+    border-radius: 150px;
 }
 
 
@@ -137,7 +148,7 @@ header{
 }
 
 .showcase p{
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 40px;
     margin-bottom: 50px;
 }

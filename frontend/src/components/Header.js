@@ -3,18 +3,9 @@ import React from 'react'
 function Header() {
   return (
     <header>
-            <div class="logo">
+            {/* <div class="logo">
                 <h1>KOSY</h1>
-            </div>
-
-            <nav class="topnav">
-                <ul>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
+            </div> */}
 
             <div id="social-nav" class="topnav">
                 <ul>
@@ -24,6 +15,17 @@ function Header() {
                     <li><a href="https://www.instagram.com/iamkosy11/" target="_blank" rel="noreferrer"><i class="bi bi-instagram"></i></a></li>
                 </ul>
             </div>
+
+            <nav class="topnav">
+                <ul>
+                    {/* <li><a href="#About">About</a></li> */}
+                    {/* <li><a href="#Skills">Skills</a></li> */}
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+
+          
 
             {/* <div id="theme-change" class="topnav" onclick="themeChanger()">
                 <button class="icon" onclick="menuBar()">
